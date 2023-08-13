@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img_container img{
+    width: 252px;
+}
+
+.card_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_container{
+    background-color: black;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card_content{
+    color: white;
+    padding: 15px;
+}
